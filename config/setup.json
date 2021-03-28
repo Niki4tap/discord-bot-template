@@ -1,0 +1,15 @@
+{
+    "activity" : " something...",
+    "description" : "*Discord bot template created by Niki4tap#6227*",
+    "prefixes" : ["Mybot"],
+    "trigger_on_mention" : true,
+    "webhook_id": "change this to debug webhook id",
+    "owner_ids" : ["your id without quotes"],
+    "embed_color" : 9077635,
+    "auth_file" : "config/auth.json",
+    "log_file" : "log.txt",
+    "cogs" : [
+        "src.cogs.util",
+        "jishaku"
+    ]
+}
